@@ -1,0 +1,10 @@
+Project 1 Pseudo-code 
+
+	1.	Get the Matrix as input.
+	2.	Define the ending matrix
+	3.	Find all the locations of the 1’s in the matrix and place that in a new array.
+	4.	Create a path array
+	5.	Build the path array by searching the 1’s array for similar column/row indexes. 
+	6.	In the case of “dead-ends” arrange a private helper scout method that checks if the path is open.
+
+*** If you see any issues or better routes with the pseudocode let me know.
