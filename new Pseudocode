@@ -1,0 +1,31 @@
+
+Project 1 Pseudo-code
+
+
+
+
+
+
+
+
+
+	1.	Get the Matrix as input. From the constructor and assign it to the field variable maze
+
+
+	2.	Declare and Initialize the top right most value in the given matrix as the ending index for the mouse.
+
+
+	3.	Private helper method findOnes that Finds all the locations of the 1’s in the matrix and 
+  returns the values of this as a array. 
+
+
+	4.	Declare and initialize a private date field pathList of type arrayList that will hold 
+  all of the indexes of where the mouse will go.
+
+
+	5.	Public method buildPath that accepts no parameters and Builds the path arrayList by 
+  searching the 1’s array for connections between column/row indexes. This methods will then 
+  populate the pathList with these values.
+
+
+	6.	In the case of “dead-ends” arrange a private helper scout method that checks if the path is open.
